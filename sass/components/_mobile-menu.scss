@@ -20,8 +20,10 @@
 }
 
 .mobile-menu-conteiner {
+    display: flex;
+    flex-direction: column;
     position: relative;
-    margin-top: 10px;
+    height: 100vh;
 }
 
 .mobile-menu__close-btn {
@@ -50,7 +52,7 @@
     gap: 32px;
     padding-left: 40px;
     padding-top: 38px;
-    margin-bottom: 302px;
+    margin-bottom: auto;
 }
 
 .mobile-menu__item .current {
