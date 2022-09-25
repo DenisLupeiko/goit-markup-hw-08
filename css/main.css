@@ -542,7 +542,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 26px;
   }
   .menu {
     display: flex;
@@ -686,6 +685,21 @@ body {
     fill: var(--accent-color);
   }
 }
+@media screen and (max-width: 767px) {
+  .hero {
+    background-color: #2F303A;
+    text-align: center;
+    background-image: linear-gradient(rgb(47, 48, 58), rgba(47, 48, 58, 0.4)), url("../img/background-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-position: center;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 .hero {
   background-color: #2F303A;
   text-align: center;
@@ -713,6 +727,11 @@ body {
   margin-left: auto;
 }
 
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../img/background@2x.jpg");
+  }
+}
 .modal-button {
   width: 216px;
   height: 50px;
@@ -1166,7 +1185,7 @@ body {
   }
 }
 @media screen and (min-width: 1200px) {
-  .con .footer__parts {
+  .footer__parts {
     display: flex;
     flex-direction: row;
     align-items: baseline;
