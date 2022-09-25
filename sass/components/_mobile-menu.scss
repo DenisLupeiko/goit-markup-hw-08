@@ -1,3 +1,5 @@
+
+@media screen and (max-width: 767px) {
 .mobile-menu {
     background-color: var(--accent-text-color);
     position: fixed;
@@ -129,4 +131,11 @@
     line-height: 1.22;
     letter-spacing: 0.02em;
     color: var(--accent-color);
+}
+}
+
+@media screen and (min-width: 768px) {
+    .mobile-menu {
+        display: none;
+    }
 }
