@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 479px) {
 
 .client__title {
         margin-bottom: 30px;
@@ -8,6 +8,13 @@
         text-align: center;
         letter-spacing: 0.03em;
     }
+
+        .client__list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: space-between;
+        }
 
         .client__item {
             width: calc((100% - 60px)/ 2); 
@@ -43,7 +50,7 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
 
 .client__title {
         margin-bottom: 30px;
@@ -61,7 +68,7 @@
     }
 
         .client__item {
-            width: calc((100% - 60px)/ 2);
+            width: 210px;
         }
 
     .client__link {
@@ -94,7 +101,7 @@
     }    
 } 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
 
     .client__title {
             margin-bottom: 30px;
@@ -153,6 +160,7 @@
 }
 
 .client__list {
+    display: flex;
     column-gap: 30px;
 }
 
