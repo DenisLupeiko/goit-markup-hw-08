@@ -309,6 +309,7 @@ text-align: center;
 .footer__top-parts {
     display: flex;
     justify-content: space-around;
+    align-items: baseline;
 }
 
 .footer-contact {
@@ -342,6 +343,7 @@ text-align: center;
 
 .footer-social__title {
     font-size: 14px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--accent-text-color);
@@ -426,6 +428,10 @@ text-align: center;
         cursor: pointer;
         border: none;
     }
+}
+
+.svg-mailing {
+    margin-left: 12px;
 }
 }
 

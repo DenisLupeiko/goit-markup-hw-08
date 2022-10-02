@@ -13,11 +13,11 @@
             display: flex;
             flex-wrap: wrap;
             gap: 30px;
-            justify-content: space-between;
+            justify-content: center;
         }
 
         .client__item {
-            width: calc((100% - 60px)/ 2); 
+            width: calc((100% - 30px)/ 2); 
         }
 
     .client__link {
@@ -102,6 +102,11 @@
 } 
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
     .client__title {
             margin-bottom: 30px;

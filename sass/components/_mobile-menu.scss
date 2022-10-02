@@ -1,5 +1,6 @@
 @media screen and (min-width: 320px) and (max-width: 479px) {
 
+
 .mobile-menu {
         background-color: var(--accent-text-color);
         position: fixed;
@@ -26,6 +27,7 @@
         flex-direction: column;
         position: relative;
         height: 100vh;
+        padding: 48px 40px;
     }
 
     .mobile-menu__close-btn {
@@ -52,7 +54,6 @@
         display: flex;
         flex-direction: column;
         gap: 32px;
-        padding-top: 38px;
         margin-bottom: 302px;
     }
 
