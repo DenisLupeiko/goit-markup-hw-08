@@ -66,11 +66,30 @@ body {
   background-color: #F5F4FA;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+@media screen and (min-width: 320px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
-
+@media screen and (min-width: 480px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
 .conteiner {
   width: 100%;
   padding-right: 15px;
@@ -1158,10 +1177,6 @@ body {
   }
 }
 @media screen and (min-width: 320px) {
-  .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
   .benefits {
     display: flex;
     flex-direction: column;
@@ -1737,10 +1752,6 @@ body {
   }
 }
 @media screen and (min-width: 768px) {
-  .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
   .client__title {
     margin-bottom: 30px;
     color: var(--secondary-text-color);
@@ -1823,6 +1834,7 @@ body {
 @media screen and (min-width: 320px) {
   .footer {
     background-color: #2F303A;
+    padding: 60px 0;
   }
   .footer__parts {
     display: block;
@@ -2208,6 +2220,9 @@ body {
     margin-right: 70px;
     align-items: baseline;
   }
+  .footer__left {
+    text-align: start;
+  }
   .footer-social__title {
     font-size: 14px;
     line-height: 16px;
@@ -2279,6 +2294,7 @@ body {
   .mailing {
     width: 570px;
     height: 86px;
+    text-align: start;
   }
   .mailing__title {
     margin-bottom: 20px;
@@ -2290,6 +2306,7 @@ body {
   }
   .form-input {
     display: flex;
+    flex-direction: row;
   }
   .form-input__mail {
     width: 358px;
