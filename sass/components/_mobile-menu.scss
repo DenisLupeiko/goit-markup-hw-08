@@ -25,6 +25,7 @@
     .mobile-menu-conteiner {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         position: relative;
         height: 100vh;
         padding: 48px 40px;
@@ -54,7 +55,6 @@
         display: flex;
         flex-direction: column;
         gap: 32px;
-        margin-bottom: 302px;
     }
 
     .mobile-menu__item .current {
