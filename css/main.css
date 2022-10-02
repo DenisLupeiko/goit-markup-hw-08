@@ -467,8 +467,15 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .modal-check-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    margin-bottom: 30px;
   }
 }
 .modal-checkbox {
