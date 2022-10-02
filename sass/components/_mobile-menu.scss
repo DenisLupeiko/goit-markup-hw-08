@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 479px) {
+@media screen and (min-width: 320px) {
 
 
 .mobile-menu {
@@ -126,7 +126,7 @@
 
     .mobile-menu__social-link {
         font-weight: 500;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 1.22;
         letter-spacing: 0.02em;
         color: var(--accent-color);
@@ -139,7 +139,7 @@
     }
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 480px) {
 .mobile-menu {
     background-color: var(--accent-text-color);
     position: fixed;

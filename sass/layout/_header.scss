@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 479px) {
+@media screen and (min-width: 320px) {
 
 .menu {
         display: none;
@@ -36,7 +36,7 @@
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 480px) {
     .menu {
         display: none;
     }
