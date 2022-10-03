@@ -20,15 +20,15 @@
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
+        overflow: scroll;
     }
 
     .mobile-menu-conteiner {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         position: relative;
         height: 100vh;
-        padding: 48px 0 48px 40px;
+        padding: 48px 80px 48px 40px;
     }
 
     .mobile-menu__close-btn {
@@ -102,7 +102,6 @@
 
     .mobile-menu__social {
         display: flex;
-        margin-bottom: 48px;
         flex-wrap: wrap;
         gap: 10px;
     }
@@ -241,7 +240,6 @@
 
 .mobile-menu__social {
     display: flex;
-    margin-bottom: 48px;
     flex-wrap: nowrap;
 }
 
