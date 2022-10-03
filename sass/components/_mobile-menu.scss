@@ -55,6 +55,7 @@
         display: flex;
         flex-direction: column;
         gap: 32px;
+        margin-bottom: 200px;
     }
 
     .mobile-menu__item .current {
@@ -66,7 +67,7 @@
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
-        font-size: 40px;
+        font-size: 32px;
         line-height: 1.18;
         letter-spacing: 0.02em;
         color: var(--secondary-text-color);
@@ -85,7 +86,7 @@
 
     .mobile-menu__contact-tel {
         font-weight: 500;
-        font-size: 26px;
+        font-size: 22px;
         line-height: 1.18;
         letter-spacing: 0.02em;
         color: var(--accent-color);
@@ -94,7 +95,7 @@
 
     .mobile-menu__contact-mail {
         font-weight: 500;
-        font-size: 24px;
+        font-size: 20px;
         line-height: 1.17;
         letter-spacing: 0.02em;
         color: var(--primary-text-color);
@@ -126,7 +127,7 @@
 
     .mobile-menu__social-link {
         font-weight: 500;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 1.22;
         letter-spacing: 0.02em;
         color: var(--accent-color);
